@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>App Website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "linear", "swing" or "easeInOutCubic". -->
+    <script src="vendors/jquery.easings.min.js"></script>
+
+
+    <!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
+    <script type="text/javascript" src="vendors/scrolloverflow.min.js"></script>
+
+    <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+    
+    
+   
+</head>
+<body>
+    
+    <div id="fullpage">
+        <div class="section">
+            <div class="landing">
+                <div class="landingWrapper">
+                    <div class="nav">
+                        <a href="#"><img src="images/logo.png" alt="logo" class="logo"></a>
+                        <div class="pages">
+                            <a href="#">How It Works</a>
+                            <a href="#">App Features</a>
+                            <a href="#">About Us</a>
+                            <a href="#" class="btnOne">Sign Up</a>
+                        </div>
+                    </div>
+                    <div class="landingContent">
+                        <div class="contentLeft">
+                            <h1>Work Better Together. Schedule <br> Meetings In An Instant</h1>
+                            <p>An easier way to collaborate with your team or friends. You <br>set up the meeting and set the priority, deicide who to invite and get started.</p>
+                            <p>Available for download on the Google Play Store and <br>App Store.</p>
+                            <a href="#" class="btnTwo">Download App</a>
+                        </div>
+                        <div class="contentRight">
+                            <img src="images/iphoneX_inHand.png" alt="iphoneX_inHand" class="iphoneHand">
+                        </div>
+                    </div>
+                </div>            
+            </div>    
+        </div>
+
+        <div class="section">
+            <div class="features">
+                <div class="date">
+                    <img src="images/cal_icon.png" alt="calender_icon">
+                    <h1>Easily Set The Date</h1>
+                    <p>Access to your personal calender lets you check <br>for open schedule dates.</p>
+                </div>
+                <div class="time">
+                    <img src="images/clock_icon.png" alt="clock_icon">
+                    <h1>Running Late?</h1>
+                    <p>Set the meetings time. If you ever need to <br>delay, all members of meeting will be <br>notified immediately</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+
+        </div>
+    </div>
+    
+    <script>
+        $(document).ready(function() {
+	       $('#fullpage').fullpage();
+        });
+    </script>
+    
+</body>    
+</html>
