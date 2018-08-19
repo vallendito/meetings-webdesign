@@ -204,46 +204,6 @@ src: local('Circular Std Book'), url('../fonts/Circular/CircularStd-Book.woff') 
 }
 
 
-@font-face {
-font-family: 'Circular Std Medium';
-font-style: normal;
-font-weight: normal;
-src: local('Circular Std Medium'), url('../fonts/Circular/CircularStd-Medium.woff') format('woff');
-}
-
-@font-face {
-font-family: 'Circular Std Bold';
-font-style: normal;
-font-weight: normal;
-src: local('Circular Std Bold'), url('../fonts/Circular/CircularStd-Bold.woff') format('woff');
-}
-
-
-@font-face {
-font-family: 'Circular Std Bold Italic';
-font-style: normal;
-font-weight: normal;
-src: local('Circular Std Bold Italic'), url('../fonts/Circular/CircularStd-BoldItalic.woff') format('woff');
-}
-
-
-@font-face {
-font-family: 'Circular Std Book Italic';
-font-style: normal;
-font-weight: normal;
-src: local('Circular Std Book Italic'), url('../fonts/Circular/CircularStd-BookItalic.woff') format('woff');
-}
-
-
-@font-face {
-font-family: 'Circular Std Medium Italic';
-font-style: normal;
-font-weight: normal;
-src: local('Circular Std Medium Italic'), url('../fonts/Circular/CircularStd-MediumItalic.woff') format('woff');
-}
-
-
-
 
 
 
