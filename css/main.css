@@ -27,8 +27,6 @@ a {
     font-size: 16px;
 }
 
-
-/*----- Landing -----*/
 .landing {
     background-image: url(../images/bg_01.png);
     background-repeat: no-repeat;
@@ -53,6 +51,34 @@ a {
     margin-top: 40px;
     text-align: center;
 }
+
+.features {
+    background-image: url(../images/bg_02.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    overflow-y: hidden;
+    min-height: 750px;
+    position: relative;
+}
+
+.groups {
+    background-image: url(../images/bg_03.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    overflow-y: hidden;
+    min-height: 600px;
+    position: relative;
+}
+
+
+/*----- Landing -----*/
+
 
 .nav {
     padding-top: 3em;
@@ -96,31 +122,34 @@ a {
 }
 
 /*----- Features -----*/
-.features {
-    background-image: url(../images/bg_02.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    width: 100%;
-    overflow-y: hidden;
-    min-height: 600px;
-    position: relative;
+.date {
+    position: absolute;
+    top: 150px;
+    left: 11%;
+}
+.time {
+    position: absolute;
+    bottom: 90px;
+    right: 15%;
+}
+.date h1, .date img, .time h1, .time img {
+    display: inline-block;
+    vertical-align: middle;
+}
+.date img, .time img {
+    margin-bottom: 10px;
+    width: 36px;
+}
+.date p, .time p {
+    display: block;
+    margin-left: 44px;
 }
 
 
 /*----- Groups -----*/
-.groups {
-    background-image: url(../images/bg_03.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    width: 100%;
-    overflow-y: hidden;
-    min-height: 600px;
-    position: relative;
-}
+
+
+
 
 /* Font */
 
